@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+
+        <div class="left-column">
+          <div class="product__thumbnails">
+            <div class="thumbnail-images">
+              <img
+                src="https://fyva.in/cdn/shop/products/3729_RED_5_3766c449-3d69-4f3b-abba-9891d59618f1.jpg?v=1704381512&width=1000"
+                alt="Thumbnail 2"
+                class="thumbnail__preview active"
+              />
+              <img
+                src="https://fyva.in/cdn/shop/products/3729_RED_6_8a270247-27be-4df9-9a06-155a7cbfa4ac.jpg?v=1704381512&width=1000"
+                alt="Thumbnail 1"
+                class="thumbnail__preview"
+              />
+              <img
+                src="https://fyva.in/cdn/shop/products/3729_RED_7_f1d77e9e-304b-4a27-81b7-09d6c1a86a4c.jpg?v=1704381512&width=1000"
+                alt="Thumbnail 3"
+                class="thumbnail__preview"
+              />
+              <img
+                src="https://fyva.in/cdn/shop/products/3729_RED_4_d26346c0-f335-4b90-be79-44ff2784e43b.jpg?v=1704381512&width=1000"
+                alt="Thumbnail 4"
+                class="thumbnail__preview"
+              />
+            </div>
+            <img
+              src="https://fyva.in/cdn/shop/products/3729_RED_6_8a270247-27be-4df9-9a06-155a7cbfa4ac.jpg?v=1704381512&width=1000"
+              alt="Product Image"
+              class="main-image"
+              id="mainPreviewProductImage"
+            />
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="product__description">
+            <div class="title-share">
+              <h1>Ribbed Cold-Shoulder Red Top</h1>
+              <i class="fas fa-share-alt" id="share-icon"></i>
+            </div>
+            <div class="price-rating">
+              <span class="discounted-price">₹599</span>
+              <span class="original-price">₹1,999</span>
+              <span class="discount-percentage">-70%</span>
+              <!-- TODO -- STYLE THIS -->
+              <span class="rating"><i class="fa-solid fa-star"></i><span>5/5</span></span>
+            </div>
+            <p class="description">
+              Elevate your style with our NoBarr Women's Red Cold Shoulder Mock
+              Neck top. The regular fit, ribbed knit, long sleeve design is
+              crafted from a blend of 41% Cotton, 41% Acrylic, and 18% Polyamide
+              for the perfect stretch.
+            </p>
+            <p class="model-info">
+              Our Model is 5’6” tall and is wearing a size S
+            </p>
+            <div class="size-selection">
+              <label class="size-selection__header">
+                <span>Size</span>
+                <a href="#" class="size-chart">
+                  <i class="fas fa-ruler size-chart--icon"></i> Size Chart
+                </a>
+              </label>
+              <div class="sizes size__selection">
+                <span class="size size__capsule">XXS</span>
+                <span class="size size__capsule">XS</span>
+                <span class="size size__capsule">S</span>
+                <span class="size size__capsule">M</span>
+              </div>
+            </div>
+            <div class="color-selection">
+              <label class="color__selectionHeader">Color</label>
+              <div class="color-box"></div>
+            </div>
+            <button class="add-to-cart btnLarge btnBlock">Add to Bag</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
